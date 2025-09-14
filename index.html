@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balcão do Bode - Maringá</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="assets/logo_balcao_do_bode.png" alt="Balcão do Bode" class="logo">
+                <span class="brand-text">Balcão do Bode</span>
+            </div>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link active">Início</a>
+                <a href="#negocios" class="nav-link">Negócios</a>
+                <a href="#classificados" class="nav-link">Classificados</a>
+                <a href="#iniciativas" class="nav-link">Iniciativas</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <button class="btn-secondary">Área do Irmão</button>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="assets/bode_recadastramento.jpeg" alt="Bode Mascote" class="bode-image">
+            </div>
+            <h1 class="hero-title">Recadastramento e Validação</h1>
+            <p class="hero-subtitle">Atualize seus dados e mantenha-se conectado com o grupo</p>
+            
+            <div class="hero-description">
+                <p>Neste segundo semestre de 2025, o grupo <strong>Balcão do Bode</strong> está realizando o recadastramento e validação dos contatos dos irmãos de Maringá. Devido ao alto número de irmãos que perderam, trocaram ou tiveram seus números comprometidos, este processo se faz necessário e urgente para manter a integridade e exclusividade do nosso grupo.</p>
+            </div>
+            
+            <button class="btn-primary btn-cta">
+                <i class="fas fa-user-plus"></i>
+                Iniciar Recadastramento
+            </button>
+        </div>
+    </section>
+
+    <!-- Negócios Section -->
+    <section id="negocios" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Negócios dos Irmãos</h2>
+                <p class="section-subtitle">Conheça e apoie os empreendimentos dos nossos irmãos</p>
+            </div>
+            
+            <div class="business-grid">
+                <div class="business-card">
+                    <div class="business-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="business-name">Empresa XYZ</h3>
+                    <p class="business-owner">Irmão João Silva</p>
+                    <span class="business-category">Consultoria</span>
+                    <p class="business-description">Planejamento financeiro e investimentos</p>
+                </div>
+                
+                <div class="business-card">
+                    <div class="business-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3 class="business-name">Restaurante Sabor & Arte</h3>
+                    <p class="business-owner">Irmão Carlos Santos</p>
+                    <span class="business-category">Gastronomia</span>
+                    <p class="business-description">Culinária tradicional brasileira</p>
+                </div>
+                
+                <div class="business-card">
+                    <div class="business-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 class="business-name">Advocacia Oliveira</h3>
+                    <p class="business-owner">Irmão Pedro Oliveira</p>
+                    <span class="business-category">Jurídico</span>
+                    <p class="business-description">Direito empresarial e civil</p>
+                </div>
+                
+                <div class="business-card">
+                    <div class="business-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="business-name">TechSolutions</h3>
+                    <p class="business-owner">Irmão Rafael Costa</p>
+                    <span class="business-category">Tecnologia</span>
+                    <p class="business-description">Desenvolvimento de sistemas</p>
+                </div>
+                
+                <div class="business-card">
+                    <div class="business-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="business-name">Contabilidade Segura</h3>
+                    <p class="business-owner">Irmão Gustavo Pereira</p>
+                    <span class="business-category">Contabilidade</span>
+                    <p class="business-description">Serviços contábeis e fiscais</p>
+                </div>
+                
+                <div class="business-card">
+                    <div class="business-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3 class="business-name">Clínica Odontológica Sorriso</h3>
+                    <p class="business-owner">Irmão Lucas Mendes</p>
+                    <span class="business-category">Saúde</span>
+                    <p class="business-description">Tratamentos odontológicos completos</p>
+                </div>
+                
+                <div class="business-card">
+                    <div class="business-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3 class="business-name">Construtora Forte</h3>
+                    <p class="business-owner">Irmão Paulo Rocha</p>
+                    <span class="business-category">Construção</span>
+                    <p class="business-description">Projetos e execução de obras</p>
+                </div>
+            </div>
+            
+            <div class="section-footer">
+                <button class="btn-outline">Ver Todos os Negócios</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classificados Section -->
+    <section id="classificados" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Classificados Recentes</h2>
+                <p class="section-subtitle">Últimos anúncios dos irmãos</p>
+            </div>
+            
+            <div class="classified-grid">
+                <div class="classified-card">
+                    <div class="classified-type sale">Venda</div>
+                    <h3 class="classified-title">Apartamento 3 quartos - Centro</h3>
+                    <div class="classified-price">R$ 350.000</div>
+                </div>
+                
+                <div class="classified-card">
+                    <div class="classified-type sale">Venda</div>
+                    <h3 class="classified-title">Honda Civic 2020</h3>
+                    <div class="classified-price">R$ 85.000</div>
+                </div>
+                
+                <div class="classified-card">
+                    <div class="classified-type sale">Venda</div>
+                    <h3 class="classified-title">Terreno em Condomínio</h3>
+                    <div class="classified-price">R$ 200.000</div>
+                </div>
+                
+                <div class="classified-card">
+                    <div class="classified-type sale">Venda</div>
+                    <h3 class="classified-title">Carro Fiat Uno 2010</h3>
+                    <div class="classified-price">R$ 18.000</div>
+                </div>
+                
+                <div class="classified-card">
+                    <div class="classified-type service">Serviço</div>
+                    <h3 class="classified-title">Aluguel de Chácara para Eventos</h3>
+                    <div class="classified-price">R$ 1.500/dia</div>
+                </div>
+            </div>
+            
+            <div class="section-footer">
+                <button class="btn-outline">Ver Todos os Classificados</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Iniciativas Section -->
+    <section id="iniciativas" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossas Iniciativas</h2>
+                <p class="section-subtitle">Projetos e eventos do Balcão do Bode</p>
+            </div>
+            
+            <div class="initiatives-grid">
+                <div class="initiative-card">
+                    <div class="initiative-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="initiative-title">Copa Bodes do Tiro</h3>
+                    <p class="initiative-subtitle">Competição anual de tiro esportivo</p>
+                    <p class="initiative-description">Nossa tradicional competição que reúne os irmãos em um ambiente de confraternização e esporte.</p>
+                    <button class="btn-secondary">Acessar Site</button>
+                </div>
+                
+                <div class="initiative-card">
+                    <div class="initiative-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="initiative-title">Clube do Livro - Bodes Leitores</h3>
+                    <p class="initiative-subtitle">Em desenvolvimento</p>
+                    <p class="initiative-description">Projeto futuro para promover a leitura e discussões literárias entre os irmãos.</p>
+                    <button class="btn-secondary disabled">Em Breve</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="assets/logo_balcao_do_bode.png" alt="Balcão do Bode" class="footer-logo">
+                        <h3>Balcão do Bode</h3>
+                        <p>Conectando irmãos em Maringá</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#negocios">Negócios</a></li>
+                        <li><a href="#classificados">Classificados</a></li>
+                        <li><a href="#iniciativas">Iniciativas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Maringá - PR</p>
+                        <p><i class="fas fa-envelope"></i> contato@balcaodobode.com</p>
+                        <p><i class="fas fa-phone"></i> (44) 9999-9999</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Balcão do Bode - Maringá. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
