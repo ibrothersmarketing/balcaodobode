@@ -174,7 +174,7 @@ body {
 .hero {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: var(--text-light);
-    padding: 180px 0 80px; /* Aumentado o padding-top para compensar o tamanho da logo */
+    padding: 120px 0 80px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -197,6 +197,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
+    margin-top: 50px; /* Reduzido para diminuir o espaço excessivo no mobile */
 }
 
 .hero-image {
@@ -629,7 +630,7 @@ body {
     }
 
     .hero {
-        padding: 100px 0 60px;
+        padding: 120px 0 60px; /* Ajuste específico para mobile, reduzido para diminuir o espaço */
     }
 
     .hero-description {
